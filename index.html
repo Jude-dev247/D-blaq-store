@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>D-Blaq Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <div class="nav-logo">
+            <img src="./the botique logo.png" alt="D-Blaq Store Logo">
+        </div>
+
+        <div class="cart-icon" id="cart-icon">
+
+            <i class="fa-solid fa-cart-shopping fa-2xl"
+                style="color:#4a3325;"></i>
+
+            <div class="circle">0</div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HOME PAGE -->
+
+    <div class="home-page">
+
+        <img src="./hanging clothes" alt="Clothes">
+
+        <div class="welcome-text">
+
+            <p>WEAR YOUR CONFIDENCE</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- SHOPPING CART -->
+
+    <div class="cart" id="cart">
+
+        <div class="close-icon">
+
+            <i class="fa-solid fa-xmark"
+                style="color: black;"
+                id="close-icon">
+            </i>
+
+        </div>
+
+        <h1>Your Cart</h1>
+
+
+        <!-- PRODUCTS ADDED TO CART -->
+
+        <div class="cart-items">
+
+            <!-- JavaScript will add products here -->
+
+        </div>
+
+
+        <!-- TOTAL PRICE -->
+
+        <div class="total-price">
+
+            <p>
+                Total
+                <span id="total-price">₦0</span>
+            </p>
+
+        </div>
+
+
+        <!-- BUY BUTTON -->
+
+        <button>Buy Now</button>
+
+    </div>
+
+
+    <!-- SHOP BY CATEGORY -->
+
+    <h1
+        style="
+        color:#4a3325;
+        margin-left:35px;
+        margin-top:50px;
+        font-family:Arial, Helvetica, sans-serif;
+        "
+    >
+        SHOP BY CATEGORY
+    </h1>
+
+
+    <div class="categories">
+
+        <div class="category">
+
+            <a href="./men.html">
+
+                <img src="./man.jfif" alt="Men">
+
+            </a>
+
+            <div class="category-h">
+                MEN
+            </div>
+
+        </div>
+
+
+        <div class="category">
+
+            <a href="./women.html">
+
+                <img src="./woman.jfif" alt="Women">
+
+            </a>
+
+            <div class="category-h">
+                WOMEN
+            </div>
+
+        </div>
+
+
+        <div class="category">
+
+            <a href="./boy.html">
+
+                <img src="./boy.jfif" alt="Boy">
+
+            </a>
+
+            <div class="category-h">
+                BOY
+            </div>
+
+        </div>
+
+
+        <div class="category">
+
+            <a href="./girl.html">
+
+                <img src="./girl.jfif" alt="Girl">
+
+            </a>
+
+            <div class="category-h">
+                GIRL
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- LATEST PRODUCTS -->
+
+    <h1 id="latest-h"
+        style="
+        margin-top:200px;
+        margin-left:150px;
+        color:#4a3325;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:800; 
+        "
+    >
+        LATEST PRODUCT
+    </h1>
+
+
+    <section class="products">
+
+
+        <!-- CARD 1 -->
+
+        <div class="product-card">
+
+            <img
+                src="https://i.pinimg.com/1200x/ce/44/f7/ce44f7d4d1e19d6e0a40f3c600e88127.jpg"
+                alt="Short and Shirt"
+            >
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>
+                        Short and Shirt
+                    </h3>
+
+                    <p>
+                        Elegant everyday wear
+                    </p>
+
+                    <span class="price">
+                        ₦38,000
+                    </span>
+
+                </div>
+
+
+                <button class="cart-btn">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 2 -->
+
+        <div class="product-card">
+
+            <img
+                src="https://i.pinimg.com/736x/c3/0a/a9/c30aa9e5a2313b2a0e6d34fc84850bc5.jpg"
+                alt="Short and Shirt"
+            >
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>
+                        Short and Shirt
+                    </h3>
+
+                    <p>
+                        Classic relaxed fit
+                    </p>
+
+                    <span class="price">
+                        ₦42,000
+                    </span>
+
+                </div>
+
+
+                <button class="cart-btn">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 3 -->
+
+        <div class="product-card">
+
+            <img
+                src="https://i.pinimg.com/736x/63/8b/34/638b34c7586b3e37061b7a2606545949.jpg"
+                alt="Long gown"
+            >
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>
+                        Long gown
+                    </h3>
+
+                    <p>
+                        Premium evening wear
+                    </p>
+
+                    <span class="price">
+                        ₦48,000
+                    </span>
+
+                </div>
+
+
+                <button class="cart-btn">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 4 -->
+
+        <div class="product-card">
+
+            <img
+                src="https://i.pinimg.com/1200x/af/ce/88/afce888800031799ab2da3198ec519ee.jpg"
+                alt="Short gown"
+            >
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>
+                        Short gown
+                    </h3>
+
+                    <p>
+                        Smart casual collection
+                    </p>
+
+                    <span class="price">
+                        ₦25,000
+                    </span>
+
+                </div>
+
+
+                <button class="cart-btn">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 5 -->
+
+        <div class="product-card">
+
+            <img
+                src="https://i.pinimg.com/736x/8f/c8/ae/8fc8aed30d1bc79c41095f6df5adef81.jpg"
+                alt="Sexy gown"
+            >
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>
+                        Sexy gown
+                    </h3>
+
+                    <p>
+                        Modern denim collection
+                    </p>
+
+                    <span class="price">
+                        ₦45,000
+                    </span>
+
+                </div>
+
+
+                <button class="cart-btn">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 6 -->
+
+        <div class="product-card">
+
+            <img
+                src="https://i.pinimg.com/1200x/88/c2/0d/88c20d82d9ca1e00a2c28cec6c0db640.jpg"
+                alt="Trouser with shirt"
+            >
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>
+                        Trouser with shirt
+                    </h3>
+
+                    <p>
+                        Minimal premium style
+                    </p>
+
+                    <span class="price">
+                        ₦55,000
+                    </span>
+
+                </div>
+
+
+                <button class="cart-btn">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 7 -->
+
+        <div class="product-card">
+
+            <img
+                src="https://i.pinimg.com/736x/a1/42/79/a14279b906a3b06f2a85175bfd4845d1.jpg"
+                alt="White dress"
+            >
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>
+                        White dress
+                    </h3>
+
+                    <p>
+                        Elegant two-piece outfit
+                    </p>
+
+                    <span class="price">
+                        ₦50,000
+                    </span>
+
+                </div>
+
+
+                <button class="cart-btn">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 8 -->
+
+        <div class="product-card">
+
+            <img
+                src="https://i.pinimg.com/1200x/da/2b/aa/da2baaadbcbf6b4c0605cea1ba82b0d0.jpg"
+                alt="Long hand shirt"
+            >
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>
+                        Long hand shirt
+                    </h3>
+
+                    <p>
+                        Signature evening collection
+                    </p>
+
+                    <span class="price">
+                        ₦62,000
+                    </span>
+
+                </div>
+
+
+                <button class="cart-btn">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- WHY CHOOSE US -->
+
+    <section class="why-choose-us">
+
+
+        <div class="why-title">
+
+            <p>
+                WHY CHOOSE US
+            </p>
+
+            <h2>
+                Why Should You Choose D-Blaq Store?
+            </h2>
+
+            <span>
+                We make fashion simple, stylish and enjoyable.
+                Here is why our customers choose us.
+            </span>
+
+        </div>
+
+
+        <div class="why-box">
+
+
+            <!-- QUALITY -->
+
+            <div class="why-card">
+
+                <div class="why-icon">
+
+                    <i class="fa-solid fa-gem"></i>
+
+                </div>
+
+                <h3>
+                    Quality Products
+                </h3>
+
+                <p>
+                    We provide carefully selected fashion pieces
+                    made to give you style, comfort and confidence.
+                </p>
+
+            </div>
+
+
+            <!-- AFFORDABLE -->
+
+            <div class="why-card">
+
+                <div class="why-icon">
+
+                    <i class="fa-solid fa-tags"></i>
+
+                </div>
+
+                <h3>
+                    Affordable Prices
+                </h3>
+
+                <p>
+                    Look your best without spending too much.
+                    We offer great fashion at competitive prices.
+                </p>
+
+            </div>
+
+
+            <!-- DELIVERY -->
+
+            <div class="why-card">
+
+                <div class="why-icon">
+
+                    <i class="fa-solid fa-truck-fast"></i>
+
+                </div>
+
+                <h3>
+                    Reliable Delivery
+                </h3>
+
+                <p>
+                    We handle your orders with care and make sure
+                    they get to you safely and on time.
+                </p>
+
+            </div>
+
+
+            <!-- CUSTOMER SATISFACTION -->
+
+            <div class="why-card">
+
+                <div class="why-icon">
+
+                    <i class="fa-solid fa-heart"></i>
+
+                </div>
+
+                <h3>
+                    Customer Satisfaction
+                </h3>
+
+                <p>
+                    Your satisfaction matters to us. We are committed
+                    to giving you a smooth shopping experience.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- D-BLAQ STORE FOOTER -->
+
+    <footer class="footer">
+
+
+        <div class="footer-main">
+
+
+            <!-- BRAND -->
+
+            <div class="footer-brand">
+
+                <img
+                    src="./the botique logo.png"
+                    alt="D-Blaq Store Logo"
+                >
+
+                <p>
+                    Style that speaks for you.
+                    Discover quality fashion pieces
+                    made for every moment.
+                </p>
+
+
+                <div class="footer-socials">
+
+
+                    <a href="#" aria-label="Instagram">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+
+                    <a href="#" aria-label="Facebook">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                    </a>
+
+
+                    <a href="#" aria-label="TikTok">
+
+                        <i class="fa-brands fa-tiktok"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://wa.me/2348136282065"
+                        aria-label="WhatsApp"
+                    >
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- SHOP -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Shop
+                </h3>
+
+                <a href="./men.html">
+                    Men
+                </a>
+
+                <a href="./women.html">
+                    Women
+                </a>
+
+                <a href="./boy.html">
+                    Boy
+                </a>
+
+                <a href="./girl.html">
+                    Girl
+                </a>
+
+            </div>
+
+
+            <!-- CUSTOMER CARE -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Customer Care
+                </h3>
+
+                <a href="#">
+                    Contact Us
+                </a>
+
+                <a href="#">
+                    Delivery Information
+                </a>
+
+                <a href="#">
+                    Returns & Exchange
+                </a>
+
+                <a href="#">
+                    FAQs
+                </a>
+
+            </div>
+
+
+            <!-- CONTACT -->
+
+            <div class="footer-column contact-column">
+
+                <h3>
+                    Get In Touch
+                </h3>
+
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Nigeria
+
+                </p>
+
+
+                <p>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <a href="tel:08136282065">
+                        08136282065
+                    </a>
+
+                </p>
+
+
+                <p>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <a href="mailto:judeizu28@gmail.com">
+                        judeizu28@gmail.com
+                    </a>
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+
+            <p>
+                © 2026 D-Blaq Store. All rights reserved.
+            </p>
+
+
+            <div>
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+
+    <button
+        id="backToTop"
+        class="back-to-top"
+        aria-label="Back to top"
+    >
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
