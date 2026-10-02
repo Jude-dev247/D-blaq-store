@@ -1111,9 +1111,10 @@ body > h1 {
     }
 
     .footer-brand img {
-        width: 150px;
-        max-width: 100%;
-        height: auto;
+        width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
     }
 
     .footer-brand p {
@@ -1127,12 +1128,6 @@ body > h1 {
         align-items: center;
         text-align: center;
     }
-    .footer-logo img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-}
 
     .footer-column h3 {
         font-size: 16px;
